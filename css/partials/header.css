@@ -1,0 +1,161 @@
+header{
+    background: #fff;
+    height: 40px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    line-height: 40px;
+    width: 100%;
+    border-bottom: 1px solid #e0e6e8;
+}
+
+.menu-start{
+    -webkit-box-flex:1;
+        -ms-flex:1 0 auto;
+            flex:1 0 auto;
+    min-width: 300px;
+}
+
+.search-bar{
+    -webkit-box-flex: 0;
+        -ms-flex: 0 1 490px;
+            flex: 0 1 490px;
+    padding: 4px 0;
+}
+
+.search-container{
+    border: 1px solid #ddd;
+    border-radius: 15px;
+    padding:0 15px;
+}
+
+.search-container input{
+    display: block;
+    width: 100%;
+    color: #9ca6af;
+    border: 0;
+    height: 30px;
+    font-size: 14px;
+    padding-bottom: 3px;
+    padding-left: 25px;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+}
+
+.search-container i{
+    position: absolute;
+    top: 12px;
+}
+
+
+.menu-end{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-flex:1;
+        -ms-flex:1 0 300px;
+            flex:1 0 300px;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+}
+
+nav ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li{
+    display: inline-block;
+    float: left;
+    
+}
+
+nav ul li.menu{
+    border-right: 1px solid #edf1f2;
+    margin: 0;
+    line-height: 40px;
+    padding-top: 3px;
+}
+
+nav ul li.user-profile a{
+    padding-left: 25px;
+}
+
+nav ul li.user-profile span{
+    margin-right: 6px;
+}
+
+.sub-menu::after{
+    content: '';
+    display: inline-block;
+    background: url('../../img/sprite.png') no-repeat -25px -5px;
+    width: 7px;
+    margin-top: 4px;
+    height: 7px;
+    margin-left: 5px;
+    vertical-align: text-top;
+}
+
+nav ul li a{
+    font-size: 14px;
+    color: #848f99;
+    text-decoration: none;
+    font-weight: 500;
+    display: block;
+    padding: 0 15px;
+}
+
+nav ul li a.active{
+    color:#151b26
+}
+
+nav ul li.plus a{
+    background: -webkit-gradient(linear, right top, left bottom, from(#fcaa21), to(#ff6171));
+    background: linear-gradient(to left bottom, #fcaa21, #ff6171);
+    display: block;
+    width: 24px;
+    height: 24px;
+    line-height: 24px;
+    border-radius: 50%;
+    color: #ffffff;
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+    margin-top: 7px;
+    padding: 0;
+    margin-left: 15px;
+}
+
+#project-active{
+    height: 65px;
+    position: relative;
+    line-height: 65px;
+    background: #fff;
+    width:100%;
+    font-size: 20px;
+    color: #151b26;
+    box-shadow: 0 1px 3px 0 rgba(0,0,0,0.15);
+}
+
+#project-active span{
+    vertical-align: middle;
+}
+
+#project-active span::after{
+    margin-left: 0;
+}
+
+#project-active .profile-picture{
+    width: 25px;
+    height: 25px;
+}
+
+#project-active #collapse-button{
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+
+}

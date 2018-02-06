@@ -1,0 +1,175 @@
+.task-detail{
+    -webkit-box-flex: 1;
+        -ms-flex: 1;
+            flex: 1;
+}
+
+.task-detail .owner-info{
+    -webkit-box-flex:0;
+        -ms-flex:0 1 auto;
+            flex:0 1 auto;
+    margin-right: 20px;
+    color:#151b26;
+}
+
+.task-detail .calendar{
+    -webkit-box-flex:0;
+        -ms-flex:0 1 auto;
+            flex:0 1 auto;
+    margin-right: 10px;
+    
+}
+
+.task-detail .calendar .btn-default{
+    color:#848f99;
+}
+
+.task-detail .calendar button{
+    padding: 0;
+    height: 30px;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+}
+
+.task-detail .action-buttons{
+    -webkit-box-flex:0;
+        -ms-flex:0 1 auto;
+            flex:0 1 auto;
+}
+
+.task-detail .action-buttons button{
+    margin-right: 3px;
+}
+
+.task-detail .box-content{
+    padding: 0 20px;
+}
+
+.task-detail .btn-close{
+    position: absolute;
+    right: 4px;
+    top: 8px;
+}
+
+.title-data{
+    margin-top: 55px;
+    width: 100%;
+    margin-bottom: 5px;
+    position: relative;
+    height: 40px;
+    
+    
+}
+
+.title-data input{
+    padding-left: 52px;
+    height: 40px;
+    border-radius: 5px;
+    border:none;
+    width: 100%;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    font-size: 18px;
+    font-weight: 600;
+    color:#151b26;
+}
+
+.title-data input:focus{
+    border: 1px solid #d5dce0;
+}
+
+.title-data input::-webkit-input-placeholder{
+    color:#9ca6af;
+}
+
+.title-data span.spn-icon{
+    position: absolute;
+    margin: 5px 0px 0px 10px;
+}
+
+.description-data{
+    padding-left: 40px;
+    width: 100%;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+}
+
+.description-data textarea{
+    width: 100%;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    border: none;
+    border-radius: 5px;
+    padding: 12px;
+    font-size: 14px;
+    color:#151b26;
+    resize: none;
+}
+
+.description-data textarea:focus{
+    border: 2px solid #87abbf;   
+}
+
+.description-data textarea::-webkit-input-placeholder{
+    color:#9ca6af;
+}
+
+.task-detail .box-footer textarea{
+    width: 100%;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    border-radius: 5px;
+    padding: 12px;
+    font-size: 14px;
+    color:#151b26;
+    resize: none;
+}
+
+.task-detail .box-footer textarea:focus{
+    border: 2px solid #87abbf;   
+}
+
+.task-detail .box-footer textarea::-webkit-input-placeholder{
+    color:#9ca6af;
+}
+
+.box-footer{
+    position: absolute;
+    bottom: 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    left: 0;
+    width: 100%;
+    height: 120px;
+    background: #f6f8f9;
+    padding: 10px 30px;
+    border-top: 1px solid #e0e6e8;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    border-radius: 0;
+}
+
+.box-footer textarea{
+    margin-left: 10px;
+    height: 100%;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    border: 1px solid #d5dce0;
+    resize: none;
+    border-radius: 5px;
+    width: calc(100% - 42px);
+}
+
+
+.btn-calendar span{
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    border-width: 1px;
+    display: inline-block;
+}
+
+.btn-calendar span.date-selected{
+    vertical-align: top;
+    margin-left: 3px;
+}

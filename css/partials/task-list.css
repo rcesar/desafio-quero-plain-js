@@ -1,0 +1,91 @@
+.task-list{
+    -webkit-box-flex:1;
+        -ms-flex:1;
+            flex:1;
+    -ms-flex-preferred-size: 10%;
+        flex-basis: 10%;
+    margin-right:1em;
+    padding-bottom: 50px;
+    
+}
+
+.task-list .box-header .add-button{
+    -webkit-box-flex:1;
+        -ms-flex:1;
+            flex:1;
+}
+
+.task-list .box-content ul li span.check-icon-list{
+    position: absolute;
+    width: 20px;
+    left: 20px;
+    top: 6px;
+    height: 20px;
+    display: inline-block;
+    border: 1px solid #ddd;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 20px;
+}
+
+.task-list .box-content ul li.ghost span.check-icon-list{
+    display: none;
+}  
+
+.task-list .box-content ul li.active span.check-icon-list{
+    display: inline-block;
+}  
+
+.task-list .box-content ul li.active div{
+    border: none;
+}  
+
+.task-list ul{
+    list-style: none;
+    padding: 0px;
+    margin: 0;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+}
+
+.task-list ul li{
+    line-height: 35px;
+    height: 35px;
+    vertical-align: middle;
+    padding: 0px 30px;
+    position: relative;
+    font-size: 14px;
+    color:#151b26;
+    cursor: pointer;
+}
+
+.task-list ul li div{
+    border-bottom: 1px solid #e0e6e8;
+    padding: 0px 20px;
+    height: 100%;
+    box-sizing: border-box;
+}
+
+.task-list ul li div .user-status{
+    position: absolute;
+    right: 30px;
+    top: 12px;
+    display: none;
+}
+
+.task-list ul li:hover{
+    background: #edf8ff;
+}
+
+.task-list ul li.active{
+    background: #edf8ff;
+}
+
+.task-list ul li.active div .user-status{
+    display: inline-block;
+}
+
+.task-list ul li span{
+    vertical-align: top;
+    margin-left: 10px;
+}

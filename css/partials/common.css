@@ -1,0 +1,181 @@
+body{
+    background-image: url('../../img/bg.jpg');
+    background-size: cover;
+    font-family: sans-serif;
+    margin: 0;
+    overflow: hidden;
+}
+
+html, body{
+    width: 100%;
+    height: 100%;   
+    position: fixed;
+}
+
+.content{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    position: absolute;
+    top: 120px;
+    bottom: 0px;
+    right: 20px;
+    left: 20px;
+}
+
+.box{
+    background: #fff;
+    border-radius: 5px 5px 0px 0px;
+    height: 100%;
+    position: relative;
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
+    -webkit-box-flex:1;
+        -ms-flex:1;
+            flex:1;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+}
+
+.box-footer{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 250px;
+    background: #a7a7a7
+}
+
+.box-header{
+    
+    height: 50px;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    display: -webkit-box;
+    margin-bottom: 2px;
+    display: -ms-flexbox;
+    display: flex;
+    padding: 10px 15px 10px 30px;
+    box-shadow: 0 1px 3px 0 rgba(0,0,0,0.15);
+}
+
+.box-content{
+    height: 100%;
+    overflow-y: scroll;
+}
+
+.content.list-mode{
+    right: 100px;  
+    left: 100px;
+}
+
+.content.list-mode .task-list{
+    margin-right: 0px;
+}
+
+.content.list-mode .task-detail{
+    display: none;
+}
+
+.profile-picture{
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+}
+
+.profile-picture img{
+    max-width: 100%;
+    vertical-align:middle;
+    border-radius: 100%;
+}
+
+.user-status{
+    width: 14px;
+    height: 14px;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    margin-top: -2px;
+    display: inline-block;
+    border: 2px solid #d5dce0;
+    border-radius: 50%;
+    vertical-align: middle;
+}
+
+.v-a-middle{
+    vertical-align: middle;
+}
+
+.p-0{
+    padding: 0;
+}
+
+.dib{
+    display: inline-block;
+}
+
+.tac{
+    text-align: center;
+}
+
+.btn{
+    font-size: 12px;
+    background: transparent;
+}
+
+.btn-primary{
+    border-color: #14aaf5;
+    color: #14aaf5;
+}
+
+.btn-default{
+    border-color: #b8c0c6;
+    color: #b8c0c6;
+}
+
+.btn-round{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    padding: 4px 5px;
+}
+
+.spn-round{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 30px;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+}
+
+.spn-default{
+    border: 1px solid;
+    border-color: #b8c0c6;
+    color: #b8c0c6;
+}
+
+.btn-outline{
+    border: 1px solid;
+    border-radius: 4px;
+    padding: 0px 12px;
+    height: 30px;
+    box-sizing: border-box;
+}
+
+.btn-clear{
+    border: none;
+}
+
+.btn-dashed{
+    border-style: dashed;
+}
+
+.btn-icon{
+    text-align: center;
+    line-height: 27px;
+}
+
+*:focus{
+    outline: none;
+}
+

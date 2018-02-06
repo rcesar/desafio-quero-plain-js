@@ -1,0 +1,86 @@
+i{
+    display: inline-block;
+}
+.icon-calendar{
+        background: url('../../img/sprite.png') no-repeat 0 0;
+        width: 14px;
+        height: 17px;
+}
+
+.icon-heart{
+    background: url('../../img/sprite.png') no-repeat -153px 0;
+	width: 16px;
+	height: 16px;
+}
+
+.icon-sub-task{
+    background: url('../../img/sprite.png') no-repeat -296px 0;
+	width: 15px;
+	height: 16px;
+}
+
+.icon-att{
+    background: url('../../img/sprite.png') no-repeat -225px 0;
+	width: 16px;
+	height: 16px;
+}
+
+.icon-more{
+    background: url('../../img/sprite.png') no-repeat -200px 0;
+	width: 16px;
+	height: 16px;
+}
+
+.icon-search{
+    background: url('../../img/sprite.png') no-repeat -249px 0;
+	width: 16px;
+	height: 16px;
+}
+
+.icon-config{
+    background: url('../../img/sprite.png') no-repeat -272px 0;
+	width: 16px;
+	height: 16px;
+}
+
+.icon-menu{
+    background: url('../../img/sprite.png') no-repeat -176px 0;
+	width: 16px;
+	height: 16px;
+}
+
+.icon-close{
+    background: url('../../img/sprite.png') no-repeat -130px 0;
+	width: 16px;
+	height: 16px;
+}
+
+.icon-check{
+    background: url('../../img/sprite.png') no-repeat -107px -2px;
+	width: 14px;
+	height: 12px;
+}
+
+.icon-check-small{
+    background: url('../../img/sprite.png') no-repeat -85px -4px;
+	width: 12px;
+	height: 8px;
+}
+
+.icon-collapse{
+    background: url('../../img/sprite.png') no-repeat -60px 0;
+	width: 16px;
+	height: 16px;
+}
+
+.icon-sub-menu{
+    background: url('../../img/sprite.png') no-repeat -21px 0;
+	width: 16px;
+	height: 16px;
+}
+
+.icon-right-arrow{
+    background: url('../../img/sprite.png') no-repeat -46px -4px;
+	width: 5px;
+	height: 8px;
+}
