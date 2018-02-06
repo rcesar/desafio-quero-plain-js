@@ -1,6 +1,6 @@
 ## Desafio Quero - Plain JS
 
-## Funcionalidades
+### Funcionalidades
 
 * Criação e edição de tarefas
 * Capacidade de operar offiline
