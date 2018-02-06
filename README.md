@@ -1,11 +1,11 @@
-## Desafio Quero Plain JS
+## Desafio Quero - Plain JS
 
 ## Funcionalidades
 
 * Criação e edição de tarefas
 * Capacidade de operar offiline
 
-## Release Notes
+## Versão
 
 Versão 0.1.0
 
